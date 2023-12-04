@@ -1,8 +1,15 @@
 ﻿using System;
 
-public class Class1
+class Licz
 {
-	public Class1()
-	{
-	}
+    public int value;
+
+    public void dodaj(int wartosc)
+    {
+        this.value += wartosc;
+    }
+    public void odejmij(int wartosc)
+    {
+        this.value -= wartosc;
+    }
 }
